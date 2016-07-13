@@ -1,0 +1,70 @@
+
+
+
+h1{
+	text-align: center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	font-size: 150px;
+	
+	font-weight: 900;
+	color: #d2f1f1;
+	opacity:0.5;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Corben', Georgia, Times, serif;
+}
+
+
+/*XS*/
+@media (max-width: 767px) {
+/*	body{
+
+		background-image: url(../img/_MG_6018.jpg);
+		text-align: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}*/
+
+	.myname{
+		font-weight:300;
+		font-size:40px;
+	}	
+}
+
+/*SM*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*body{
+		background-image: url(../img/_MG_6018.jpg);
+		text-align: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}*/
+	.myname{
+		font-size:80px;
+		font-weight: 500;
+	}
+}
+
+/*MD*/
+@media (min-width: 992px) and (max-width: 1199px) {
+/*	body{
+		background-image: url(../img/_MG_6018.jpg);
+		text-align: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}*/
+}
+	/*LG*/
+	@media (min-width: 1200px)  {
+		/*body{
+			background-image: url(../img/_MG_6018.jpg);
+			text-align: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}*/
+	}
+
+	

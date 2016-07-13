@@ -1,0 +1,75 @@
+.jumbotron{
+	text-align: center;
+	box-shadow: 0 0 1em 1em #ccc;
+}
+
+.jumbotron .btn{
+	background-color: green;
+	border-color: green;
+
+}
+.footer{
+	border-top: 0.5px solid #E5E5E5;
+	padding-top: 15px;
+}
+
+.round-edges{
+	border-radius:50px;
+	opacity:0.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+body { 
+    background: url(../img/cream_dust.png) repeat 0 0;
+}
+
+.jumbotron .btn i { 
+    margin-right: 8px; 
+    background:#C2DFFA; 
+}
+
+ a, .nav-pills > .active {
+    background-color: #FF9473;
+}
+
+h1 { 
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+
+
+/*XS*/
+@media (max-width: 767px) {
+	body{
+	background-image: url('../img/3.jpg');
+
+	text-align: center;
+
+}
+}
+/*SM*/
+@media (min-width: 768px) and (max-width: 991px) {
+	body{
+	background-image: url('../img/2.jpg');
+	text-align: center;
+}
+}
+/*MD*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	body{
+	background-image: url('../img/2.jpg');
+}
+}
+/*LG*/
+@media (min-width: 1200px)  {
+body{
+	background-image: url('../img/4.jpg');
+	background-size: cover;
+}
+}
